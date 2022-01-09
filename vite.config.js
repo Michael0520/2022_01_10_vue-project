@@ -20,5 +20,5 @@ export default defineConfig({
         import.meta.url))
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/2022_01_10_vue-project/' : './',
+  base: process.env.NODE_ENV === 'production' ? '/2022_01_10_vue-project/' : '/',
 })
